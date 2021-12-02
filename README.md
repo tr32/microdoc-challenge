@@ -25,3 +25,16 @@ durch merge sort alles Frames zusammengesetzt werden,
 dann kann man den Median ermitteln.
 Um das Sortieren der einzelnen Frames zu beschleunigen, 
 kann man multiprocessing bzw. multithreading benutzen.
+
+## Setup
+
+Run `main.py` with arguments from the console, example:
+
+```shell
+python main.py -i=C:\dev\gitlab\microdoc-challenge\src\data\sample.log -o=C:\dev\gitlab\microdoc-challenge\src\data\output
+```
+
+To list supported and required arguments:
+```shell
+python main.py --help
+```
